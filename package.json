@@ -59,7 +59,7 @@
 		"tweening"
    ],
    "browserify": {
-       "transform": ["babelify"]
+       "transform": [["babelify", { "presets": ["@babel/preset-env"] }]]
    },
    "maintainers": [
        {
